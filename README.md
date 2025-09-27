@@ -10,7 +10,7 @@ We engineered a full-stack Python application that leverages two best-in-class c
 
 ### **🛠️ Core Technology Stack & Algorithms**
 
-| Component | Technology / Algorithm | Why We Chose It (The Advantage) |
+| Component | Technology / Algorithm | (The Advantage) |
 | :---- | :---- | :---- |
 | **Face Detection** | **YOLOv8** (You Only Look Once) | **Speed\!** YOLOv8 is an ultra-fast model that ensures near-real-time performance, even on a standard CPU, allowing us to detect faces instantly. |
 | **Feature Extraction** | **FaceNet (InceptionResnetV1)** | **Accuracy\!** FaceNet generates highly descriptive, 128-dimensional **Face Embeddings**. This is the digital 'fingerprint' of a face, ensuring low false-positive rates. |
@@ -37,7 +37,7 @@ The system operates in two secure phases: Enrollment and Real-Time Marking.
 4. **Matching:** The new embedding is instantly compared against **all saved user embeddings** using **Cosine Similarity**.  
 5. **Logging:** If the similarity score is above the 0.6 threshold, the user is identified, and their attendance is marked in the attendance.db—**eliminating proxy attempts**.
 
-## **🏆 Impact & Key Advantages (Why We Win)**
+## **🏆 Impact & Key Advantages**
 
 * **Zero-Contact Solution:** Essential for modern hygiene standards in schools and offices.  
 * **Unrivaled Speed:** From detection to logging, the entire process takes less than 500ms, vastly improving user throughput.  
