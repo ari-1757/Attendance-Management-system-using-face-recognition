@@ -1,0 +1,8 @@
+streamlit
+opencv-python
+ultralytics
+facenet-pytorch
+pillow
+numpy
+scikit-learn
+sqlalchemy
